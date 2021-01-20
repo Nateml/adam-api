@@ -4,7 +4,7 @@ import requests
 
 
 class Session(object):
-    """Create a login self.session to access adam data
+    """Create a login session to access adam data
 
     Args:
         username (String): username
