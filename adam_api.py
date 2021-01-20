@@ -124,9 +124,5 @@ class Session(object):
         else:
             return marks_dict[subjectName.upper()]
 
-if __name__ == "__main__":
-    s = Session('n.macdonald', 'Polki1369', 'pupil')
-    print(s.get_marks(0, 'English'))
-
 
 
