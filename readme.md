@@ -12,4 +12,4 @@ USAGE:
     * access different terms as you would access a list (0 for the most recent term, -1 for last term)
 
     * an optional <subject> parameter can be included like so: <your_session_object>.get_marks(term_index, subject=<string>)
-    * This will return a list of tuples containing your marks for each assessment you completed in a specific term for a specific subject
+        * This will return a list of tuples containing your marks for each assessment you completed in a specific term for a specific subject
