@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import re
 import requests
 
-
 class Session(object):
     """Create a login session to access adam data
 
@@ -11,15 +10,7 @@ class Session(object):
         password (String): password 
         type (String): Type of login. Pupil/staff/parent
     """
-
     def __init__(self, username, password, type):
-        """Create a login self.session to access adam data
-
-        Args:
-            username (String): username
-            password (String): password 
-            type (String): Type of login. Pupil/staff/parent
-        """
 
         self.username = username
         self.password = password
