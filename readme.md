@@ -1,7 +1,7 @@
 A python interface to access marks from ADAM. Limited functionality.
 Only works with Oakhill adam at this stage.
 
-USAGE:
+**USAGE:**
 
 * create a new session object with Session(username, password, type)
     * type is a string which describes the type of login, namely 'pupil', 'staff', or 'parent'.
